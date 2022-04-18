@@ -26,17 +26,29 @@ public class Fruit {
     /**
      * Fruit constructor
      * @param name Name of the fruit
-     * @param averageWeight Average weigth of teh fruit giving in pounds
+     * @param averageWeight Average weight of the fruit giving in pounds
      */
     public Fruit(String name, float averageWeight){
         this.name = name;
-        this.averageWeight = averageWeight;
+        this.setAverageWeight(averageWeight);
     } 
     
     
     
     //Methods
     
+    public float getAverageWeight() {
+        return averageWeight;
+    }
+
+
+
+    public void setAverageWeight(float averageWeight) {
+        this.averageWeight = averageWeight;
+    }
+
+
+
     /**
      * Methods to set the color of the fruit
      * @param name Name of the fruit

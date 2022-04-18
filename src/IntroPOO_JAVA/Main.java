@@ -15,8 +15,8 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        Ball p = new Ball(300,300);
+        // code application logic here
+
         Ball pB = new Ball(500,500);
         System.out.println("The ball weigth is:" + pB.obtenerPeso());
         
